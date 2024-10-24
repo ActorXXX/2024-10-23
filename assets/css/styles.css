@@ -38,6 +38,8 @@ section {
     padding: 20px;
 }
 
+/* Seccion BANNER*/
+
 .banner {
     background-image: url(../images/Mask\ Group.png);
     border: solid violet;
@@ -53,6 +55,8 @@ section {
     width: 377px;
     height: 117px;
 }
+
+/* Seccion SOBRE MI*/
 
 .about {
     background-color: #7299FE;
@@ -151,6 +155,17 @@ h3 {
 
 .text4 {
     color: #00AD84;
+    margin-bottom: 30px;
+}
+
+figure {
+    
+    margin: 0 auto;
+    border: solid red;
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* Seccion CLIENTES*/
@@ -164,6 +179,13 @@ h3 {
     color: #ADFF28;
 }
 
+.img-clientes {
+    margin-top: 20px;
+    width: 850px;
+}
+
+/* Seccion CONTACTO*/
+
 .contacto {
     background-color: #1687A0;
     height: 578px;
@@ -171,4 +193,40 @@ h3 {
 
 .text6 {
     color: #FF1B1B;
+}
+
+form {
+    /*border: solid green;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article-contacto {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /*border: solid blue;*/
+
+}
+
+input {
+    padding-left: 10px;
+    height: 59px;
+    width: 363px;
+}
+
+textarea {
+    width: 759px;
+    height: 112px;
+}
+
+#enviar {
+    width: 167px;
+    height: 56px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #233451;
 }
