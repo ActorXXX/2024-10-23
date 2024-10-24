@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: solid blue;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.wrapper {
+    border: solid red;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+     margin-top: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+p {
+    color: #FFF;
+    font-size: 36px;
+
+}
+
+section {
+    padding: 20px;
+}
+
+.banner {
+    background-image: url(../images/Mask\ Group.png);
+    border: solid violet;
+    height: 525px;
+}
+
+.subtitulo {
+    margin-top: 130px;
+    margin-left: 60px;
+    background: #7299FE80;
+    padding: 10px;
+    border-radius: 8px;
+    width: 377px;
+    height: 117px;
+}
+
+.about {
+    background-color: #7299FE;
+    height: 424px;
+}
+
+.text2 {
+    color: #1D06A7;
+}
+
+.about-text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.about-button {
+    font-size: 22px;
+    color: #fff;
+    margin-top: 10px;
+    background: #D16FFF;
+    border: transparent;
+    border-radius: 10px;
+    width: 187px;
+    height: 62px;
+}
+
+/* Seccion SKILLS*/
+
+.skills {
+    background-color: #9022FF;
+    height: 424px;
+}
+
+.text3 {
+    color: #26CC4B;
+}
+
+.columnas {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h3 {
+    color: #FFF;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.barra{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:  #fff;
+    width: 403px;
+    height: 20px;
+}
+
+.barra-int{
+    border-radius: 10px;
+    background-color: #57EFF9;
+    height: 20px;
+}
+
+#barra-html {
+    width: 319px;
+}
+
+#barra-javascript {
+    width: 215px;
+}
+
+#barra-flexbox {
+    width: 363px;
+}
+
+#barra-css {
+    width: 64px;
+}
+
+#barra-vue {
+    width: 339px;
+}
+
+#barra-grid {
+    width: 185px;
+}
+
+/* Seccion PORTAFOLIO*/
+
+.portafolio {
+    background-color: #FFD233;
+    height: 424px;
+}
+
+.text4 {
+    color: #00AD84;
+}
+
+/* Seccion CLIENTES*/
+
+.clientes {
+    background-color: #3F4E62;
+    height: 258px;
+}
+
+.text5 {
+    color: #ADFF28;
+}
+
+.contacto {
+    background-color: #1687A0;
+    height: 578px;
+}
+
+.text6 {
+    color: #FF1B1B;
+}
